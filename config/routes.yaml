@@ -1,3 +1,13 @@
 index:
     path: /
-    controller: App\Controller\MainController::number
+    controller: App\Controller\MainController::titles
+anotitions:
+    path: /anotations
+    controller: App\Controller\MainController::anotations
+save:
+    path: /save
+    controller: App\Controller\MainController::save
+
+comments:
+    path: /comments
+    controller: App\Controller\MainController::comments

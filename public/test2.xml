@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <test-title>Тестирование знаний по курсу Кирилла Асаныча. Тест разработан nkmtn</test-title>
+    <topics>
+        <topic>
+            <title>XML</title>
+            <tasks>
+                <task>
+                    <question>Содержимое тега в XML что</question>
+                    <answers>
+                        <answer correct="no">Должно отделятся от тега пробелами</answer>
+                        <answer correct="yes">Может отделяться от тега пробелами, но будут игнорироваться</answer>
+                        <answer correct="no">Не должно отделяться от тега пробелами</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>В XML можно задать своё пространство имен?</question>
+                    <answers>
+                        <answer correct="no">Такая возможность не предусмотренна языком</answer>
+                        <answer correct="yes">Можно</answer>
+                        <answer correct="no">Если постараться, можно создать что-то похожее на пространство имен</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Какой префик зафиксирован в XML?</question>
+                    <answers>
+                        <answer correct="no">system</answer>
+                        <answer correct="yes">xml</answer>
+                        <answer correct="no">ect</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Пустой тег</question>
+                    <answers>
+                        <answer correct="no">Не выявится, но данные будет некорректны</answer>
+                        <answer correct="yes">Допустим</answer>
+                        <answer correct="no">Выявится на этапе обработки XML</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Пролог</question>
+                    <answers>
+                        <answer correct="no">Является неотъемлимой частью XML скрипта</answer>
+                        <answer correct="yes">Является хорошим тоном, но без него можно обойтись</answer>
+                        <answer correct="no">Может быть расположен в любом месте скрипта</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic>
+            <title>DTD</title>
+            <tasks>
+                <task>
+                    <question>Имеет ли значение порядок объявления в DTD?</question>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Возможны ли проблемы с пространствои имен при использовании DTD?</question>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>В DTD необходимая последовательность A,B означает, что...</question>
+                    <answers>
+                        <answer correct="no">Сначала необходимо выполнить В, потом А</answer>
+                        <answer correct="yes">Сначала необходимо выполнить А, потом В</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Как обозначается необязательность предыдущего элемента в DTD?</question>
+                    <answers>
+                        <answer correct="no">Символом "*"</answer>
+                        <answer correct="yes">Символом "?"</answer>
+                        <answer correct="no">Символом "-"</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Обязательно ли указывать дочернии элементы в DTD?</question>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic>
+            <title>XSD</title>
+            <tasks>
+                <task>
+                    <question>В XSD тип данных для URI адресов - это ...</question>
+                    <answers>
+                        <answer correct="no">link</answer>
+                        <answer correct="yes">anyURI</answer>
+                        <answer correct="no">someURI</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Ограничениями на содержимое XML-элементов называются ...</question>
+                    <answers>
+                        <answer correct="no">Рамки</answer>
+                        <answer correct="yes">Грани</answer>
+                        <answer correct="yes">Границы</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Аналогом последовательности (,) из DTD для XSD является ...</question>
+                    <answers>
+                        <answer correct="yes">order</answer>
+                        <answer correct="yes">sequence</answer>
+                        <answer correct="no">consistency</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>В XSD мозможна группировка элементов?</question>
+                    <answers>
+                        <answer correct="no">Никак нет</answer>
+                        <answer correct="yes">Так точно</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>В XSD мозможна группировка элементов?</question>
+                    <answers>
+                        <answer correct="no">Никак нет</answer>
+                        <answer correct="yes">Так точно</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic>
+            <title>XQuery</title>
+            <tasks>
+                <task>
+                    <question>Аббревиатура(ры) из первых букв операторов в xquery</question>
+                    <answers>
+                        <answer correct="no">FLOWR</answer>
+                        <answer correct="yes">FLORE</answer>
+                        <answer correct="no">LOWER</answer>
+                        <answer correct="yes">LOWFR</answer>
+                        <answer correct="no">LOVER</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Оператор for</question>
+                    <answers>
+                        <answer correct="no">Связывает переменные с полным результатом вычисления выражения, добавляя эти связи к кортежам, полученным оператором for, или создавая единственный кортеж (при отсутствии оператора for)</answer>
+                        <answer correct="yes">Cвязывает одну или более переменных с выражениями, создавая поток кортежей</answer>
+                        <answer correct="no">Сортирует поток кортежей</answer>
+                        <answer correct="no">Оставляет в потоке только те кортежи, которые удовлетворяют условию, являющемуся параметром данного оператора</answer>
+                        <answer correct="no">создает результат выражения FLWOR для данного кортежа</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Выберите правельное утверждение</question>
+                    <answers>
+                        <answer correct="yes">for и let можно использовать несколько раз в выражении</answer>
+                        <answer correct="yes">for и let можно использовать</answer>
+                        <answer correct="yes">for и let можно не использовать несколько раз в выражении</answer>
+                        <answer correct="no">for и let можно нельзя использовать совместно</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Сколько выраженией where доступно?</question>
+                    <answers>
+                        <answer correct="no">Два</answer>
+                        <answer correct="yes">Одно</answer>
+                        <answer correct="no">Три</answer>
+                        <answer correct="no">Не более двух</answer>
+                        <answer correct="yes">Не более одного</answer>
+                    </answers>
+                </task>
+                <task>
+                    <question>Какие есть операторы в xquery?</question>
+                    <answers>
+                        <answer correct="yes">Список констант</answer>
+                        <answer correct="yes">Численные интервалы</answer>
+                        <answer correct="yes">Выражения и функции XPath</answer>
+                        <answer correct="yes">Объединение</answer>
+                        <answer correct="yes">Операторы множества</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+    </topics>
+</test> 
