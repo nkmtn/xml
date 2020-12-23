@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+    <test-title>Тестирование знаний по курсу Кирилла Асаныча. Тест разработан Енотом</test-title>
+    <topics>
+        <topic id="0">
+            <title>XML</title>
+            <tasks>
+                <task id="0">
+                    <title>Содержимое тега в XML</title>
+                    <answers>
+                        <answer correct="no">Должно отделятся от тега пробелами</answer>
+                        <answer correct="yes">Может отделяться от тега пробелами, но будут игнорироваться</answer>
+                        <answer correct="no">Не должно отделяться от тега пробелами</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>В XML можно задать своё пространство имен?</title>
+                    <answers>
+                        <answer correct="no">Такая возможность не предусмотренна языком</answer>
+                        <answer correct="yes">Можно</answer>
+                        <answer correct="no">Если постараться, можно создать что-то похожее на пространство имен</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Какой префик зафиксирован в XML?</title>
+                    <answers>
+                        <answer correct="no">system</answer>
+                        <answer correct="yes">xml</answer>
+                        <answer correct="no">ect</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Пустой тег</title>
+                    <answers>
+                        <answer correct="no">Не выявится, но данные будет некорректны</answer>
+                        <answer correct="yes">Допустим</answer>
+                        <answer correct="no">Выявится на этапе обработки XML</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Пролог</title>
+                    <answers>
+                        <answer correct="no">Является неотъемлимой частью XML скрипта</answer>
+                        <answer correct="yes">Является хорошим тоном, но без него можно обойтись</answer>
+                        <answer correct="no">Может быть расположен в любом месте скрипта</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="1">
+            <title>DTD</title>
+            <tasks>
+                <task id="0">
+                    <title>Имеет ли значение порядок объявления в DTD?</title>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Возможны ли проблемы с пространствои имен при использовании DTD?</title>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>В DTD необходимая последовательность A,B означает, что...</title>
+                    <answers>
+                        <answer correct="no">Сначала необходимо выполнить В, потом А</answer>
+                        <answer correct="yes">Сначала необходимо выполнить А, потом В</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Как обозначается необязательность предыдущего элемента в DTD?</title>
+                    <answers>
+                        <answer correct="no">Символом "*"</answer>
+                        <answer correct="yes">Символом "?"</answer>
+                        <answer correct="no">Символом "-"</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Обязательно ли указывать дочернии элементы в DTD?</title>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="2">
+            <title>XSD</title>
+            <tasks>
+                <task id="0">
+                    <title>В XSD тип данных для URI адресов - это ...</title>
+                    <answers>
+                        <answer correct="no">link</answer>
+                        <answer correct="yes">anyURI</answer>
+                        <answer correct="no">someURI</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Ограничениями на содержимое XML-элементов называются ...</title>
+                    <answers>
+                        <answer correct="no">Рамки</answer>
+                        <answer correct="yes">Грани</answer>
+                        <answer correct="no">Границы</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Аналогом последовательности (,) из DTD для XSD является ...</title>
+                    <answers>
+                        <answer correct="no">order</answer>
+                        <answer correct="yes">sequence</answer>
+                        <answer correct="no">consistency</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>В XSD мозможна группировка элементов?</title>
+                    <answers>
+                        <answer correct="no">Никак нет</answer>
+                        <answer correct="yes">Так точно</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>В XSD мозможна группировка элементов?</title>
+                    <answers>
+                        <answer correct="no">Никак нет</answer>
+                        <answer correct="yes">Так точно</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="3">
+            <title>XLink</title>
+            <tasks>
+                <task id="0">
+                    <title>Атребут xlink:show</title>
+                    <answers>
+                        <answer correct="yes">new</answer>
+                        <answer correct="yes">replace</answer>
+                        <answer correct="yes">embed</answer>
+                        <answer correct="no">onLoad</answer>
+                        <answer correct="yes">none</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Атребут xlink:actuate</title>
+                    <answers>
+                        <answer correct="yes">onLoad</answer>
+                        <answer correct="yes">onRequest</answer>
+                        <answer correct="yes">other</answer>
+                        <answer correct="yes">none</answer>
+                        <answer correct="no">embed</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Расширенная ссылка ...</title>
+                    <answers>
+                        <answer correct="yes">описывает набор ресурсов и пути движения между ними</answer>
+                        <answer correct="no">описывает только набор ресурсов</answer>
+                        <answer correct="no">описывает только пути движения</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Говоря об xlink нельзя не упоминуть о ...</title>
+                    <answers>
+                        <answer correct="no">Ключицах</answer>
+                        <answer correct="yes">Ребрах</answer>
+                        <answer correct="no">Лопатках</answer>
+                        <answer correct="no">Черепушках</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Связи могут быть</title>
+                    <answers>
+                        <answer correct="no">Один к одному, один ко многим, многие ко многим</answer>
+                        <answer correct="yes">Один к одному, один ко многим</answer>
+                        <answer correct="no">Только один к одному</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="4">
+            <title>XPath</title>
+            <tasks>
+                <task id="0">
+                    <title>XPath</title>
+                    <answers>
+                        <answer correct="no">XML</answer>
+                        <answer correct="yes">не XML</answer>
+                        <answer correct="yes">Cсылка на отдельную часть XML документа</answer>
+                        <answer correct="yes">Выбор по положению, относительному положению, типу, содержимому и другим критериям</answer>
+                        <answer correct="yes">Работает с конечным документом => нельзя отличить генерируемые конструкции</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Типы узлов</title>
+                    <answers>
+                        <answer correct="yes">Корневой узел</answer>
+                        <answer correct="yes">Узлы элементов</answer>
+                        <answer correct="yes">Текстовые узлы</answer>
+                        <answer correct="yes">Узлы атрибутов</answer>
+                        <answer correct="yes">Узлы пространств имен</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Маршруты к дочерним элементам</title>
+                    <answers>
+                        <answer correct="yes">Простейший маршрут — одиночное имя элемента</answer>
+                        <answer correct="yes">Выбор дочерних элементов с указанным именем</answer>
+                        <answer correct="yes">Относительный маршрут — выбор зависит от контекстного элемента</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Подстановочные выражения</title>
+                    <answers>
+                        <answer correct="yes">Три подстановочных выражения: *, node() и @*</answer>
+                        <answer correct="yes">Звездочка * соответствует любому узлу элемента</answer>
+                        <answer correct="no">Перед звездочкой не может присутствовать префикс пространства имен (svg:*)</answer>
+                        <answer correct="no">node() – соответствует всем узлам: элементов, текста, атрибутов, инструкций обработки, пространств имен и комментариев</answer>
+                        <answer correct="no">Может быть с префиксом (@xlink:*)</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Полные маршруты поиска</title>
+                    <answers>
+                        <answer correct="yes">Каждый шаг в маршруте имеет две обязательные части: ось и критерий узла, а также одну необязательную часть – предикаты</answer>
+                        <answer correct="yes">Ось - направление перемещения от контекстного узла</answer>
+                        <answer correct="yes">Критерий узла - какие узлы по этой оси следует включать</answer>
+                        <answer correct="yes">Предикаты - дополнительное отсеивание</answer>
+                        <answer correct="yes">Ось и критерий узла разделяются двумя двоеточиями ::</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="5">
+            <title>XPoint</title>
+            <tasks>
+                <task id="0">
+                    <title>XPoint</title>
+                    <answers>
+                        <answer correct="no">XML</answer>
+                        <answer correct="yes">Не XML</answer>
+                        <answer correct="yes">Добавлены типы точек и интервалов</answer>
+                        <answer correct="yes">Сокращенный синтаксис распространенных форм Xpath</answer>
+                        <answer correct="no">Нет проблемы ссылок на внутренний объект внешнего документа</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>В расширенных ссылках можно указать ...</title>
+                    <answers>
+                        <answer correct="no">Только начальное ребро</answer>
+                        <answer correct="yes">Начальный и конечный ресурсы ребра</answer>
+                        <answer correct="no">Только онечное ребро</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Простые имена</title>
+                    <answers>
+                        <answer correct="yes">Идентификация якоря по имени</answer>
+                        <answer correct="yes">Используется ID атрибут, а не специальный элемент</answer>
+                        <answer correct="no">Используется не ID атрибут, а специальный элемент</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Выберите верные утверждения</title>
+                    <answers>
+                        <answer correct="yes">Точка - позиция внутри содержимого узла</answer>
+                        <answer correct="no">Точка - позиция узла</answer>
+                        <answer correct="yes">Пространство между двумя точками - интервал</answer>
+                        <answer correct="yes">Точка задается ее узлом контейнером и неотрицательным индексом внутри этого узла</answer>
+                        <answer correct="yes">Не более одного</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Интервалы</title>
+                    <answers>
+                        <answer correct="yes">range() </answer>
+                        <answer correct="yes">range_inside()</answer>
+                        <answer correct="no">range_outside()</answer>
+                        <answer correct="yes">range_to()</answer>
+                        <answer correct="yes">string_range()</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="6">
+            <title>XQuery</title>
+            <tasks>
+                <task id="0">
+                    <title>Аббревиатура(ры) из первых букв операторов в xquery</title>
+                    <answers>
+                        <answer correct="no">FLOWR</answer>
+                        <answer correct="yes">FLORE</answer>
+                        <answer correct="no">LOWER</answer>
+                        <answer correct="yes">LOWFR</answer>
+                        <answer correct="no">LOVER</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Оператор for</title>
+                    <answers>
+                        <answer correct="no">Связывает переменные с полным результатом вычисления выражения, добавляя эти связи к кортежам, полученным оператором for, или создавая единственный кортеж (при отсутствии оператора for)</answer>
+                        <answer correct="yes">Cвязывает одну или более переменных с выражениями, создавая поток кортежей</answer>
+                        <answer correct="no">Сортирует поток кортежей</answer>
+                        <answer correct="no">Оставляет в потоке только те кортежи, которые удовлетворяют условию, являющемуся параметром данного оператора</answer>
+                        <answer correct="no">создает результат выражения FLWOR для данного кортежа</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Выберите правельное утверждение</title>
+                    <answers>
+                        <answer correct="yes">for и let можно использовать несколько раз в выражении</answer>
+                        <answer correct="yes">for и let можно использовать</answer>
+                        <answer correct="yes">for и let можно не использовать несколько раз в выражении</answer>
+                        <answer correct="no">for и let можно нельзя использовать совместно</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Сколько выраженией where доступно?</title>
+                    <answers>
+                        <answer correct="no">Два</answer>
+                        <answer correct="yes">Одно</answer>
+                        <answer correct="no">Три</answer>
+                        <answer correct="no">Не более двух</answer>
+                        <answer correct="yes">Не более одного</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Какие есть операторы в xquery?</title>
+                    <answers>
+                        <answer correct="yes">Список констант</answer>
+                        <answer correct="yes">Численные интервалы</answer>
+                        <answer correct="yes">Выражения и функции XPath</answer>
+                        <answer correct="yes">Объединение</answer>
+                        <answer correct="yes">Операторы множества</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="7">
+            <title>XSL</title>
+            <tasks>
+                <task id="0">
+                    <title>XSL - это стиль?</title>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Горовя о XSL, можно упоминать о stylesheet?</title>
+                    <answers>
+                        <answer correct="no">Нет</answer>
+                        <answer correct="yes">Да</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Какой атрибут допускается в файле XSL</title>
+                    <answers>
+                        <answer correct="no">array</answer>
+                        <answer correct="yes">template</answer>
+                        <answer correct="yes">value-of</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>XSL расшифровывается как</title>
+                    <answers>
+                        <answer correct="no">xml styling</answer>
+                        <answer correct="yes">Extensible Stylesheet Language</answer>
+                        <answer correct="no">XML Stylesheet Language</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>XSLT документ - это</title>
+                    <answers>
+                        <answer correct="no">XML документ</answer>
+                        <answer correct="yes">Таблица стилей</answer>
+                        <answer correct="no">CSS документ</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="8">
+            <title>XSL_FO</title>
+            <tasks>
+                <task id="0">
+                    <title>В каком году была одобрена первая версия XSLT</title>
+                    <answers>
+                        <answer correct="no">2000</answer>
+                        <answer correct="yes">1999</answer>
+                        <answer correct="no">1998</answer>
+                        <answer correct="no">2001</answer>
+                        <answer correct="no">1997</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Из сколько частей состоит семейство XSL</title>
+                    <answers>
+                        <answer correct="no">1</answer>
+                        <answer correct="no">2</answer>
+                        <answer correct="yes">3</answer>
+                        <answer correct="no">4 условию, являющемуся параметром данного оператора</answer>
+                        <answer correct="no">5</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>На какой стороне выполняется XSL</title>
+                    <answers>
+                        <answer correct="no">Только со стороны клиента</answer>
+                        <answer correct="no">Только со стороны сервера</answer>
+                        <answer correct="yes">На любой из сторон</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Какой инструмент используется для навигации</title>
+                    <answers>
+                        <answer correct="no">XPointer</answer>
+                        <answer correct="yes">XPath</answer>
+                        <answer correct="no">XML</answer>
+                        <answer correct="no">XQuery</answer>
+                        <answer correct="no">XLink</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>В какой тип можно преобразовать XML-документ с помощью XSL</title>
+                    <answers>
+                        <answer correct="yes">HTML</answer>
+                        <answer correct="yes">PDF</answer>
+                        <answer correct="yes">WML</answer>
+                        <answer correct="yes">SQL</answer>
+                        <answer correct="yes">avi</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="9">
+            <title>RDF</title>
+            <tasks>
+                <task id="0">
+                    <title>Выберите верные утверждения</title>
+                    <answers>
+                        <answer correct="yes">RDF - модель представления данных</answer>
+                        <answer correct="no">RDF - язык обработки данных</answer>
+                        <answer correct="no">RDF - язык запросов к базе</answer>
+                        <answer correct="yes">Ресурс в RDF — информационная (например, сайт) или не информационная (например, человек) сущность</answer>
+                    </answers>
+                </task>
+                <task id="1">
+                    <title>Триплеты</title>
+                    <answers>
+                        <answer correct="no">Имеет вид «субъект — объект»</answer>
+                        <answer correct="yes">это - утверждения о ресурсе</answer>
+                        <answer correct="yes">Имеет вид «субъект — предикат — объект»</answer>
+                        <answer correct="yes">Множество утверждений — ориентированный граф</answer>
+                        <answer correct="no">Множество утверждений — не ориентированный граф</answer>
+                    </answers>
+                </task>
+                <task id="2">
+                    <title>Имена сущностей</title>
+                    <answers>
+                        <answer correct="yes">Имеют вид URI (Универсальных Идентификаторов Ресурсов)</answer>
+                        <answer correct="yes">Для сокращения используются пространства имен</answer>
+                        <answer correct="no">Не могут быть сокращены</answer>
+                        <answer correct="no">Имеют вид XML</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Основные элементы RDF XML</title>
+                    <answers>
+                        <answer correct="yes">Корневой элемент</answer>
+                        <answer correct="yes">Префикс по умолчанию rdf</answer>
+                        <answer correct="no">Отсутствует префикс по умолчанию</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Описание сущности</title>
+                    <answers>
+                        <answer correct="yes">Элемент </answer>
+                        <answer correct="no">Описывает сущность с помощью xpoin и xpath</answer>
+                        <answer correct="yes">Описывает сущность с помощью других элементов или атрибутов</answer>
+                        <answer correct="yes">Атрибут rdf:about — имя сущности</answer>
+                        <answer correct="no">Атрибут rdf:text — имя сущности</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+    </topics>
+</test>

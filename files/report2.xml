@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+
+<test>
+    <topics>
+        <topic id="0">
+            <title>xml</title>
+            <tasks>
+                <task id="1"> 
+                    <title>XML начал развитие от</title>
+                    <answers>
+                        <answer correct="yes">SGML</answer>
+                        <answer correct="no">HTML</answer>
+                        <answer correct="no">XHTML</answer>
+                        <answer correct="no">DTD</answer>
+                    </answers>
+                </task>
+                <task id="2"> 
+                    <title>XML расшифровывается как</title>
+                    <answers>
+                        <answer correct="no">Expensive Mutable Language</answer>
+                        <answer correct="no">Xerox Mamba Laugch</answer>
+                        <answer correct="yes">Extensible Markup Language</answer>
+                        <answer correct="no">Hypertitle Markup Language</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>XML-файл начинается с</title>
+                    <answers>
+                        <answer correct="no">'&lt;'!DOCcorrect ...'&gt;'</answer>
+                        <answer correct="no">'&lt;'Hello world ...'&gt;'</answer>
+                        <answer correct="no">'&lt;'html'&gt;''&lt;'/html'&gt;'</answer>
+                        <answer correct="yes">'&lt;'?xml version="1.0"?'&gt;'</answer>
+                    </answers>
+                </task>
+                <task id="4">
+                    <title>Как указывать атрибут</title>
+                    <answers>
+                        <answer correct="no">имя:= "значение"</answer>
+                        <answer correct="yes">имя = "значение"</answer>
+                        <answer correct="no"> имя{"значение"}</answer>
+                    </answers>
+                </task>
+                <task id="5"> 
+                    <title>Как выглядит пустой тег</title>
+                    <answers>
+                        <answer correct="yes">"&lt;"hr/"&gt;"</answer>
+                        <answer correct="no">"&lt;"hr"&gt;" </answer>
+                        <answer correct="no">"&lt;"/hr"&gt;"</answer>
+                        <answer correct="no">"&lt;"hr="null""&gt;"</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="1">
+            <title>dtd</title>
+            <tasks>
+                <task id="1">
+                    <title>Замедляет ли работу использование DTD</title>
+                    <answers>
+                        <answer correct="yes">Да</answer>
+                        <answer correct="no">Нет</answer>
+                    </answers>
+                </task>
+                <task id="2"> 
+                    <title>DTD расшифровывается как</title>
+                    <answers>
+                        <answer correct="no">Не расшифровывается</answer>
+                        <answer correct="no">Definition The Document</answer>
+                        <answer correct="yes">Document correct Definition</answer>
+                        <answer correct="no">Definition correct Document</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>DTD основан на</title>
+                    <answers>
+                        <answer correct="no">XML</answer>
+                        <answer correct="no">HTML</answer>
+                        <answer correct="yes">SGML</answer>
+                    </answers>
+                </task>
+                <task id="4"> 
+                    <title>Какие атрибуты допускаются в файле DTD</title>
+                    <answers>
+                        <answer correct="yes">CDATA</answer>
+                        <answer correct="yes">ID</answer>
+                        <answer correct="no">ANSWER</answer>
+                    </answers>
+                </task>
+                <task id="5"> 
+                    <title>Как добавляется DTD файл?</title>
+                    <answers>
+                        <answer correct="yes">'&lt;'!DOCcorrect ...'&gt;'</answer>
+                        <answer correct="no">'&lt;'Hello world ...'&gt;'</answer>
+                        <answer correct="no">'&lt;'dtd'&gt;''&lt;'/dtd'&gt;'</answer>
+                        <answer correct="no">'&lt;'?xml version="1.0"? DTD="name.dtd"'&gt;'</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+        <topic id="2">
+            <title>xsd</title>
+            <tasks>
+                <task id="1">
+                    <title>В XCD можно использовать типы данных?</title>
+                    <answers>
+                        <answer correct="yes">Да</answer>
+                        <answer correct="no">Нет</answer>
+                    </answers>
+                </task>
+                <task id="2"> 
+                    <title>XCD расшифровывается как</title>
+                    <answers>
+                        <answer correct="no">XML Simple Defenition</answer>
+                        <answer correct="yes">XML Schema Defenition Language</answer>
+                        <answer correct="no">XML Super Dealer</answer>
+                    </answers>
+                </task>
+                <task id="3">
+                    <title>Ссылка на другой элемент в XCD указывается как</title>
+                    <answers>
+                        <answer correct="no">href="NAME_ELEMENT"</answer>
+                        <answer correct="no">link="NAME_ELEMENT"</answer>
+                        <answer correct="yes">ref="NAME_ELEMENT"</answer>
+                    </answers>
+                </task>
+                <task id="4"> 
+                    <title>Что задает атрибут correct</title>
+                    <answers>
+                        <answer correct="yes">Тип элемента</answer>
+                        <answer correct="no">Тип файла</answer>
+                        <answer correct="no">Тип ссылки</answer>
+                    </answers>
+                </task>
+                <task id="5"> 
+                    <title>Какой элемент содержит атрибуты или элементы</title>
+                    <answers>
+                        <answer correct="yes">Сложный</answer>
+                        <answer correct="no">Простой</answer>
+                        <answer correct="no">Составной</answer>
+                        <answer correct="no">Произвольный</answer>
+                    </answers>
+                </task>
+            </tasks>
+        </topic>
+    </topics>
+</test>
+ 
